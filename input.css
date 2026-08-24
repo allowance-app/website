@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  --background: oklch(98.5% .006 240);
+
+  --brand: oklch(44% .105 250);
+  background-color: var(--background);
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+}
+
+p {
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+.hero-images {
+    overflow-x: scroll;
+    padding: 1rem;
+
+    img {
+        object-fit: contain;
+        margin-right: 1rem;
+
+    }
+}
+
+.screenshot {
+    box-shadow: #999 0px 5px 10px 0px;
+    margin-right: 1rem;
+}
+
+.bg-white {
+    background-color: var(--background);
+}
+
+body {
+
+    --tw-backdrop-opacity: 5%;
+    --tw-backdrop-blur: blur(10px);
+}
+.backdrop-blur {
+    -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+    backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+
+    background-color:
+        color-mix(in oklab, var(--background) 85%, transparent);
+}
+
+nav.bg-white {
+    background: none;
+}
+
+.callout {
+    background-color: var(--brand);
+    border-radius: 1000px;
+}
