@@ -1267,6 +1267,10 @@ input:checked + .toggle-bg {
   flex-wrap: wrap;
 }
 
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -1741,7 +1745,7 @@ p {
 
 .screenshot {
   box-shadow: #999 0px 5px 10px 0px;
-  margin-right: 1rem;
+  margin: 0 1rem 1rem 0;
 }
 
 .bg-white {
@@ -1767,6 +1771,13 @@ nav.bg-white {
 .callout {
   background-color: var(--brand);
   border-radius: 1000px;
+}
+
+.image-left {
+  direction: rtl;
+  > * {
+    direction: ltr;
+  }
 }
 
 .hover\:border-gray-300:hover {
