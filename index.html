@@ -378,6 +378,19 @@ Allowance lets you make plans for anything: Your life, your house, your business
 
     </footer>
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
-    <script data-cfasync="false" type="text/javascript">window.civchat = {apiKey: "zxtag8",};</script><script data-cfasync="false" type="text/javascript" src="https://makebetterplans.user.com/widget.js"></script>
+    <script>
+      (function(d, script) {
+        script = d.createElement('script');
+        script.async = false;
+        script.onload = function(){
+          Plain.init({
+            requireAuthentication: true,
+            appId: 'liveChatApp_01M288SH9HMH5EB7KMVEQCMSTA',
+          });
+        };
+        script.src = 'https://chat.cdn-plain.com/index.js';
+        d.getElementsByTagName('head')[0].appendChild(script);
+      }(document));
+    </script>
 </body>
 </html>
