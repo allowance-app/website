@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg10376"
+   width="8.5in"
+   height="11in"
+   viewBox="0 0 816.00001 1056"
+   sodipodi:docname="planter-panel.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   inkscape:export-filename="allowance-panel.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10380" />
+  <sodipodi:namedview
+     id="namedview10378"
+     pagecolor="#afe9c6"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.32907805"
+     inkscape:cx="-129.14869"
+     inkscape:cy="487.72624"
+     inkscape:window-width="1307"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g10382"
+     inkscape:document-units="in" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g10382">
+    <path
+       id="path1939"
+       style="fill:#60a060;fill-opacity:1;stroke:#233a23;stroke-width:9.94874;stroke-dasharray:none;stroke-opacity:1"
+       d="m 431.50857,449.36311 c -40.88195,-2e-5 -74.02333,33.14136 -74.02332,74.02331 v 90.82795 h 29.60943 v -31.84068 c 12.78409,9.69248 28.37104,14.96934 44.41389,15.03605 40.88195,10e-6 74.02332,-33.14137 74.02331,-74.02332 10e-6,-40.88195 -33.14136,-74.02332 -74.02331,-74.02331 z m 0,29.60926 c 24.52922,-4e-5 44.41409,19.88483 44.41405,44.41405 -4e-5,24.52916 -19.88489,44.41394 -44.41405,44.4139 -24.5291,-5e-5 -44.41385,-19.8848 -44.41389,-44.4139 -4e-5,-24.52916 19.88473,-44.414 44.41389,-44.41405 z"
+       inkscape:label="path1939"
+       sodipodi:nodetypes="ssccccsssssss" />
+  </g>
+</svg>
